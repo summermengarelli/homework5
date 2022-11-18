@@ -4,7 +4,7 @@ let vid = document.getElementById('videoplayer');
 
 window.addEventListener('load', function(){
     vid.preload = 'auto';
-    vid.load = 'false';
+    vid.loop = 'false';
     vid.autoplay = 'false';
 });
 
